@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design.simple</OriginalElement>
+  <nodes>
+    <node x="0.0" y="314.0">com.example.design.simple.SimpleFactoryTest</node>
+    <node x="2.0" y="238.0">com.example.design.simple.SimpleFactory</node>
+    <node x="99.25" y="0.0">com.example.design.simple.IComputer</node>
+    <node x="168.0" y="81.0">com.example.design.simple.AsusComputer</node>
+    <node x="0.0" y="81.0">com.example.design.simple.LenovoComputer</node>
+    <node x="0.0" y="157.0">com.example.design.simple.ISimpleFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design.simple.AsusComputer" target="com.example.design.simple.IComputer">
+      <point x="0.0" y="-15.5" />
+      <point x="234.5" y="56.0" />
+      <point x="181.75" y="56.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.SimpleFactory" target="com.example.design.simple.ISimpleFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.LenovoComputer" target="com.example.design.simple.IComputer">
+      <point x="0.0" y="-15.5" />
+      <point x="74.0" y="56.0" />
+      <point x="126.75" y="56.0" />
+      <point x="-27.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="150.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

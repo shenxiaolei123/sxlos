@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.design.simple</OriginalElement>
+  <nodes>
+    <node x="197.0" y="314.0">com.example.design.simple.IPhone</node>
+    <node x="368.0" y="314.0">com.example.design.simple.ITv</node>
+    <node x="403.0" y="471.0">com.example.design.simple.AbsFactoryTest</node>
+    <node x="152.0" y="238.0">com.example.design.simple.AsusFactory</node>
+    <node x="168.0" y="81.0">com.example.design.simple.AsusComputer</node>
+    <node x="0.0" y="314.0">com.example.design.simple.ISimpleFactory</node>
+    <node x="0.0" y="81.0">com.example.design.simple.LenovoComputer</node>
+    <node x="68.25" y="157.0">com.example.design.simple.IMethodFactory</node>
+    <node x="205.0" y="471.0">com.example.design.simple.SimpleFactoryTest</node>
+    <node x="333.0" y="157.0">com.example.design.simple.IAbsFactory</node>
+    <node x="2.0" y="395.0">com.example.design.simple.SimpleFactory</node>
+    <node x="99.25" y="0.0">com.example.design.simple.IComputer</node>
+    <node x="314.0" y="238.0">com.example.design.simple.LenovoAbsFactory</node>
+    <node x="0.0" y="238.0">com.example.design.simple.LenovoFactory</node>
+    <node x="178.0" y="395.0">com.example.design.simple.LenovoPhone</node>
+    <node x="0.0" y="471.0">com.example.design.simple.MethodFactoryTest</node>
+    <node x="349.0" y="395.0">com.example.design.simple.LenovoTv</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.design.simple.LenovoFactory" target="com.example.design.simple.IMethodFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="66.0" y="213.0" />
+      <point x="103.25" y="213.0" />
+      <point x="-35.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.LenovoTv" target="com.example.design.simple.ITv">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.LenovoAbsFactory" target="com.example.design.simple.IAbsFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.AsusComputer" target="com.example.design.simple.IComputer">
+      <point x="0.0" y="-15.5" />
+      <point x="234.5" y="56.0" />
+      <point x="181.75" y="56.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.SimpleFactory" target="com.example.design.simple.ISimpleFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.AsusFactory" target="com.example.design.simple.IMethodFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="210.5" y="213.0" />
+      <point x="173.25" y="213.0" />
+      <point x="35.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.LenovoPhone" target="com.example.design.simple.IPhone">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.design.simple.LenovoComputer" target="com.example.design.simple.IComputer">
+      <point x="0.0" y="-15.5" />
+      <point x="74.0" y="56.0" />
+      <point x="126.75" y="56.0" />
+      <point x="-27.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8505747126436781" x="269.5" y="278.0" />
+  <SelectedNodes>
+    <node>com.example.design.simple.LenovoPhone</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
